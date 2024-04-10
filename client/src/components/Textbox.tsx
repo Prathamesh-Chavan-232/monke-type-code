@@ -12,7 +12,7 @@ const Textbox = ({ text }: Props) => {
                 <div className="typing-textbox">
                     <p>{text}</p>
                     <input
-                        className="typing-input"
+                        className="bg-transparent m-16 p-2 h-24 w-24 typing-input"
                         type="text"
                         onChange={(e) => setTypedText(e.target.value)}
                     />
